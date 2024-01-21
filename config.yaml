@@ -1,0 +1,9 @@
+configReload:
+  configURL: https://raw.githubusercontent.com/ubiquitous-factory/quadit-demo/main/config.yaml
+  schedule: "1/120 * * * * *"
+targetConfigs:
+- url: https://raw.githubusercontent.com/ubiquitous-factory/quadit-demo
+  targetPath: "sleep.container"
+  branch: "main"
+  schedule: "1/2 * * * * *"
+  start: false
