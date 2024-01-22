@@ -6,4 +6,4 @@ targetConfigs:
   targetPath: "sleep.container"
   branch: "main"
   schedule: "1/2 * * * * *"
-  start: false
+  start: true
