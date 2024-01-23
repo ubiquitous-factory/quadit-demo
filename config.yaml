@@ -5,5 +5,5 @@ targetConfigs:
 - url: https://raw.githubusercontent.com/ubiquitous-factory/quadit-demo
   targetPath: "sleep.container"
   branch: "main"
-  schedule: "1/2 * * * * *"
-  start: true
+  schedule: "1/60 * * * * *"
+  action: start
